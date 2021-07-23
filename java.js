@@ -23,7 +23,7 @@ function tentativa() {
     if (chute == number) {
         document.getElementById("exibir2").innerHTML = "Parabéns! Você acertou.";
         document.getElementById("exibir").innerHTML = "Pegue seus bitcoins!";
-        document.getElementById("tt").innerHTML = "Aperte F5 para jogar novamente.";
+        document.getElementById("tt").innerHTML = "<a href = 'file:///C:/Users/User/Documents/Maguinho/index.html'> tentar novamente <img class='reiniciar' src = 'css/desfazer-seta.png'> </img> </a>";
         document.getElementById("moedas").className = "moedas";
         document.getElementById("moedas").src = "https://imagensemoldes.com.br/wp-content/uploads/2020/09/Desenho-Moedas-Dinheiro-Bitcoin-PNG.png";
         acertou = true;
@@ -45,8 +45,7 @@ function tentativa() {
     if (tentativas == 0 && acertou == false) {
         document.getElementById("exibir2").innerHTML = "suas tentativas acabaram!";
         document.getElementById("exibir").innerHTML = "vire sapo!";
-        document.getElementById("tt").innerHTML = "Aperte f5 para jogar novamente.";
-        tentativas = 3;
+        document.getElementById("tt").innerHTML = "<a href = 'file:///C:/Users/User/Documents/Maguinho/index.html'> tentar novamente  <img class='reiniciar' src = 'css/desfazer-seta.png'> </img> </a>";
         document.querySelector("#botao").style.display = "none";
         document.getElementById("sapo").className = "sapo";
         document.getElementById("sapo").src = "https://cdn-0.emojis.wiki/emoji-pics/facebook/frog-facebook.png";
