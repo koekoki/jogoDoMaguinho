@@ -23,7 +23,7 @@ function tentativa() {
     if (chute == number) {
         document.getElementById("exibir2").innerHTML = "Parabéns! Você acertou.";
         document.getElementById("exibir").innerHTML = "Pegue seus bitcoins!";
-        document.getElementById("tt").innerHTML = "<a href = 'file:///C:/Users/User/Documents/Maguinho/index.html'> tentar novamente <img class='reiniciar' src = 'https://image.flaticon.com/icons/png/512/82/82004.png'> </img> </a>";
+        document.getElementById("tt").innerHTML = "<a href = 'https://koekoki.github.io/jogoDoMaguinho/'> tentar novamente <img class='reiniciar' src = 'https://image.flaticon.com/icons/png/512/82/82004.png'> </img> </a>";
         document.getElementById("moedas").className = "moedas";
         document.getElementById("moedas").src = "https://imagensemoldes.com.br/wp-content/uploads/2020/09/Desenho-Moedas-Dinheiro-Bitcoin-PNG.png";
         acertou = true;
@@ -45,7 +45,7 @@ function tentativa() {
     if (tentativas == 0 && acertou == false) {
         document.getElementById("exibir2").innerHTML = "suas tentativas acabaram!";
         document.getElementById("exibir").innerHTML = "vire sapo!";
-        document.getElementById("tt").innerHTML = "<a href = 'file:///C:/Users/User/Documents/Maguinho/index.html'> tentar novamente  <img class='reiniciar' src = 'https://image.flaticon.com/icons/png/512/82/82004.png'> </img> </a>";
+        document.getElementById("tt").innerHTML = "<a href = 'https://koekoki.github.io/jogoDoMaguinho/'> tentar novamente  <img class='reiniciar' src = 'https://image.flaticon.com/icons/png/512/82/82004.png'> </img> </a>";
         document.querySelector("#botao").style.display = "none";
         document.getElementById("sapo").className = "sapo";
         document.getElementById("sapo").src = "https://cdn-0.emojis.wiki/emoji-pics/facebook/frog-facebook.png";
