@@ -1,29 +1,51 @@
 <html>
-  <head>
-    <meta charset = "utf-8">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
-<link rel="stylesheet" type="text/css" href="css/Estilo.css">
-  </head>
-  
-  <body>
-    <div class="container">
-    <img  id="nuvem" >
-    <img class = "mago" id="mago" src="https://dbdzm869oupei.cloudfront.net/img/sticker/preview/35919.png">
-          <div class="box">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/Estilo.css">
+</head>
+<header id="header">
+  <nav class="container">
+    <img src = "https://imagensemoldes.com.br/wp-content/uploads/2020/09/Desenho-Moedas-Dinheiro-Bitcoin-PNG.png" class="coleção"> </img>
+    <span id = "gold">0 </span>
+  </nav>
+
+</header>
+
+<body>
+  <main>
+    <section id="home">
+      <div class="container">
+        <img id="nuvem">
+        <img class="mago" id="mago" src="https://dbdzm869oupei.cloudfront.net/img/sticker/preview/35919.png">
+        <div class="box">
+          <div class="form">
             <ul>
-              
-                <li> <p id="tt"> ADIVINHE O NÙMERO DO MAGO!</p> </li>       
-            
-               <li> <input class = "numero" onKeyPress = "return submitenter(this,event)" type="text" name = "chute" id="chute" autocomplete = "off" placeholder="digite aqui" maxlength="1"> </li> 
-              <li> <button type="submit" onclick = "tentativa()"  id="botao"> ✔</button>   </li>
-              <li> <p id="exibir2"> </p> </li>
-             <li> <p id="exibir"> </p> </li>
-              <li> <img  id="sapo"> </li>
-              <li> <img  id="moedas"> </li>
-          </ul>
+
+              <li>
+                <h1 id = "tt"> ADIVINHE O NÙMERO DO MAGO!</h1>
+              </li>
+
+              <li> <input class="numero" onKeyPress="return submitenter(this,event)" type="text" name="chute" id="chute"
+                  autocomplete="off" placeholder="digite aqui" maxlength="1"> </li>
+              <li> <button type="submit" onclick="tentativa()" id="botao"> ✔</button> </li>
+              <li>
+                <p id="exibir2"> </p>
+              </li>
+              <li>
+                <p id="exibir"> </p>
+              </li>
+              <li> <img id="sapo"> </li>
+              <li> <img id="moedas"> </li>
+            </ul>
           </div>
-    </div>
-   </body>
-   <script src="java.js"> </script>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+<script src="java.js"> </script>
+
 </html>
